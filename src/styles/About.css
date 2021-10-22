@@ -1,0 +1,53 @@
+.about {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  
+  background-image: linear-gradient(rgb(153, 155, 177),rgb(187, 189, 153));
+
+}
+
+.about .aboutTop {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+}
+
+.about .aboutBottom {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+  
+
+
+}
+
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 70px;
+  color: rgb(172, 83, 83);
+
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+  text-shadow: 2px 2px blue;
+  
+}
+.about .aboutBottom p {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(49, 40, 40);
+
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+  
+}
